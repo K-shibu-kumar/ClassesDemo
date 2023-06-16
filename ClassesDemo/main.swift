@@ -1,11 +1,10 @@
-//
-//  main.swift
-//  ClassesDemo
-//
-//  Created by Dixon A on 15/06/23.
-//
+/* the point is Dragon has access to all props and methods of Enemy Superclass. In addition Dragon can have additional func . */
 
-import Foundation
+let skeleton = Enemy()
 
-print("Hello, World!")
-
+let dragon = Dragon()
+dragon.wingspan = 20
+print(dragon.health)
+dragon.attack()
+dragon.move()
+dragon.talks(speech: "Dracarys")
