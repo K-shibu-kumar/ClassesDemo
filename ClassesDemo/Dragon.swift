@@ -12,7 +12,7 @@ class Dragon: Enemy {
         print("Fly forwards")
     }
     override func attack() {
-        super.attack() //in which Dragon can inherit the default attack() method and can have custom methods as well
+        super.attack() //in which Dragon can inherit the default attack() method and can have custom methods as well. it is called TypeCasting
         print("Spits fire, and does a damage of 20")
         
     }
